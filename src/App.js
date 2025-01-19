@@ -1,44 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
-// import Description from './Description';
-// // import Name from './Name';
-// // import Price from './Price';
-// // import Name from './Name';
-// // import Price from './Price';
-// // import picters from './picters';
-// function App() {
 
-//   return (
-//     <div className="App">
-//           <Description/>
-          
-//           <div >
-
-//           <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="holder.js/100px180" />
-//       <Card.Body>
-//         <Card.Title>Card Title</Card.Title>
-//         <Card.Text>
-//           Some quick example text to build on the card title and make up the
-//           bulk of the card's content.
-//         </Card.Text>
-//         <Button variant="primary">Go somewhere</Button>
-//       </Card.Body>
-//     </Card>
-  
-          
-//         </div>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
-// src/App.js
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import Name from "./Name";
@@ -49,9 +9,7 @@ import product from "./product";
 import image01 from './image01.jpg'
 import image02 from'./image02.jpg';
 
-// Définir votre prénom ici
-const firstName = "NAJWA"; // Remplacez par votre prénom
-
+const firstName = "NAJWA";
 function App() {
   return (
     <div className="App">
